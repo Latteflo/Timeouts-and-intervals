@@ -7,9 +7,7 @@ body {
   justify-content: center;
   align-content: center;
   background-color: #577557; 
-}
-.cursor {
-  background-image: url('/hammer.png'),auto;
+  cursor: url('/cursor.cur'),auto;
 }
 h1 {
   font-size: 32px;
@@ -58,3 +56,10 @@ div {
   height: 12rem;
 }
 
+@media screen and (max-width: 450px){
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px;
+}
+}
