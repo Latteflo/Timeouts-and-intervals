@@ -14,7 +14,7 @@ const showMole = () => {
   }, 1000)
 }
 
-//setInterval(showMole, Math.random()* 1000)
+setInterval(showMole, Math.random()* 1000)
 
 ///we add event listeners to the mole
 moles.forEach((mole) =>
@@ -41,3 +41,6 @@ moles.forEach((mole) =>
 //} else {
 //  setInterval(showMole, 2000)
 //}
+
+
+// Path: cursor.js
